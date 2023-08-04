@@ -122,7 +122,7 @@ class App {
   }
 
   addClick() {
-    window.addEventListener("click", () => this.addBody());
+    window.addEventListener("pointerup", () => this.addBody());
   }
 
   addResize() {
